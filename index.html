@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Tutorial</title>
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="https://www.triestescuolaonline.it/contents/css/style.css" />
+        <link rel="stylesheet" href="https://www.triestescuolaonline.it/contents/css/style_responsive.css" />
+        <link rel="stylesheet" href="https://www.triestescuolaonline.it/contents/css/utility_classes.css" />  
+
+        <!-- bootstrap italia -->
+        <link rel="stylesheet" href="https://www.triestescuolaonline.it/contents/lib/bootstrap-italia/css/bootstrap-italia-custom.min.css" />
+
+        <!-- splide carousel -->
+        <link rel="stylesheet" href="https://www.triestescuolaonline.it/contents/lib/bootstrap-italia/css/vendor/splide-core.min.css" />
+
+        <!-- JQUERY -->
+        <script type="text/javascript" src="https://www.triestescuolaonline.it/contents/lib/jquery/jquery.min.js"></script>
+
+        <!-- JQUERY UI -->
+        <link rel="stylesheet" href="https://www.triestescuolaonline.it/contents/lib/jquery-ui-1.12.1/jquery-ui.min.css" />
+        <script type="text/javascript" src="https://www.triestescuolaonline.it/contents/lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+
+
+        <header class="it-header-wrapper shadow it-header-sticky" data-bs-toggle="sticky" data-bs-position-type="fixed" data-bs-sticky-class-name="is-sticky" data-bs-target="#header-nav-wrapper">
+    <div class="it-header-slim-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="it-header-slim-wrapper-content">
+                        
+<div class="d-flex align-items-center gap-2">
+    <div class="">
+        <img width="30" src="/contents/img/icons/logo-comune-ts-white.svg"  />
+    </div>
+            <a target="_blank" class="d-lg-block navbar-brand" href="https://www.comune.trieste.it/">Comune di Trieste</a>
+        </div>                        <div class="it-header-slim-right-zone">
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="it-nav-wrapper">
+        <div class="it-header-center-wrapper theme-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="it-header-center-content-wrapper">
+                            <div class="it-brand-wrapper">
+                                <a href="/">
+                                    <img src="/contents/img/icons/main-logo.svg" class="icon" aria-hidden="true"/>
+                                    <div class="it-brand-text">
+                                        <div class="it-brand-title custom-brand">Trieste <span class="text-primary ">Educazione</span></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="it-right-zone">
+                                <div class="it-search-wrapper">
+                                    <div id="search-preview" class="d-flex align-items-center">
+                                        <span class="d-none d-md-block">Cerca</span>
+                                        <a id="search-preview-link" data-bs-toggle='modal' data-bs-target='#search-modal' class="search-link rounded-icon" aria-label="Cerca nel sito" data-focus-mouse="false">
+                                            <svg class="icon">
+                                            <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-search"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header-nav-wrapper" class="it-header-navbar-wrapper theme-light-desk theme-dark-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!--start nav-->
+                        <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
+                            <button class="custom-navbar-toggler" type="button" aria-controls="navC2" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#navC2">
+                                <svg class="icon">
+                                <use href="/contents/lib/bootstrap-italia/svg/sprites.svg#it-burger"></use>
+                                </svg>
+                            </button>
+                            <div class="navbar-collapsable" id="navC2" style="display: none;">
+                                <div class="overlay" style="display: none;"></div>
+                                <div class="close-div">
+                                    <button class="btn close-menu" type="button">
+                                        <span class="visually-hidden">Nascondi la navigazione</span>
+                                        <svg class="icon">
+                                        <use href="/contents/lib/bootstrap-italia/svg/sprites.svg#it-close-big"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="menu-wrapper">
+                                    <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" href="index.php?0=notizie" aria-current="page"><span>Notizie</span></a></li>
+<li class="nav-item dropdown megamenu">
+    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdown-Aree Educative">
+        <span>Aree Educative</span>
+        <svg class="icon icon-xs">
+        <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-expand"></use>
+        </svg>
+    </a>
+    <div class="dropdown-menu" role="region" aria-labelledby="dropdown-Aree Educative">
+        <div class="px-4 px-lg-0">
+
+            <div class="px-4 px-lg-0">
+                <a href="index.php?0=aree-educative" class="">
+                    <div class="text-white fw-bold text-uppercase">
+                        Aree Educative
+                        <svg class="d-inline icon icon-sm icon-white right" aria-hidden="true">
+                        <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-arrow-right"></use>
+                        </svg>
+                    </div>
+                    <hr class="text-white"/>
+                </a>
+            </div>
+
+            <div class="px-4 px-lg-0 pt-4 pt-lg-0 row">
+                <div class="col-lg-3 col-12 py-0 py-lg-4">
+    <div class="it-heading-megacolumn-wrapper">
+        <div class="it-heading-megacolumn">
+            <a href="index.php?0=anni-0-3" class="text-white fw-bold">
+                <span class="me-2">
+                    Anni 0/3
+                </span>
+                <span>
+                    <svg class="icon icon-sm icon-white right" aria-hidden="true">
+                    <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <div class="link-list-wrapper">
+        <ul class="link-list">
+            <li><a class="list-item" href="index.php?0=nidi-d’infanzia-comuna"><span>Nidi d&rsquo;infanzia comunali</span></a></li>
+<li><a class="list-item" href="index.php?0=nidi-d’infanzia-convenziona"><span>Nidi d&rsquo;infanzia convenzionati</span></a></li>
+<li><a class="list-item" href="index.php?0=nidi-d’infanzia-azienda"><span>Nidi d&rsquo;infanzia aziendali</span></a></li>
+<li><a class="list-item" href="index.php?0=servizi-integrativi"><span>Servizi integrativi</span></a></li>
+<li><a class="list-item" href="index.php?0=sezione-primavera"><span>Sezione Primavera</span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div class="col-lg-3 col-12 py-0 py-lg-4">
+    <div class="it-heading-megacolumn-wrapper">
+        <div class="it-heading-megacolumn">
+            <a href="index.php?0=anni-3-6" class="text-white fw-bold">
+                <span class="me-2">
+                    Anni 3/6
+                </span>
+                <span>
+                    <svg class="icon icon-sm icon-white right" aria-hidden="true">
+                    <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <div class="link-list-wrapper">
+        <ul class="link-list">
+            <li><a class="list-item" href="index.php?0=anni-3-6-scuole-dell-infanzia"><span>Scuole dell&#039;infanzia</span></a></li>
+<li><a class="list-item" href="index.php?0=scuole-dell’infanzia-convenziona"><span>Scuole dell&rsquo;infanzia convenzionate</span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div class="col-lg-3 col-12 py-0 py-lg-4">
+    <div class="it-heading-megacolumn-wrapper">
+        <div class="it-heading-megacolumn">
+            <a href="index.php?0=anni-6-18" class="text-white fw-bold">
+                <span class="me-2">
+                    Anni 6/18
+                </span>
+                <span>
+                    <svg class="icon icon-sm icon-white right" aria-hidden="true">
+                    <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <div class="link-list-wrapper">
+        <ul class="link-list">
+            <li><a class="list-item" href="index.php?0=ricreatori"><span>Ricreatori</span></a></li>
+<li><a class="list-item" href="index.php?0=anni-6-18-sis"><span>SIS</span></a></li>
+<li><a class="list-item" href="index.php?0=scuola-primaria-e-secondaria"><span>Scuola primaria e secondaria</span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div class="col-lg-3 col-12 py-0 py-lg-4">
+    <div class="it-heading-megacolumn-wrapper">
+        <div class="it-heading-megacolumn">
+            <a href="index.php?0=servizi-estivi" class="text-white fw-bold">
+                <span class="me-2">
+                    Servizi Estivi
+                </span>
+                <span>
+                    <svg class="icon icon-sm icon-white right" aria-hidden="true">
+                    <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <div class="link-list-wrapper">
+        <ul class="link-list">
+            <li><a class="list-item" href="index.php?0=servizi-estivi-ricrestate"><span>Ricrestate</span></a></li>
+<li><a class="list-item" href="index.php?0=servizi-estivi-centri-estivi"><span>Centri estivi</span></a></li>
+
+        </ul>
+    </div>
+</div>
+<div class="col-lg-3 col-12 py-4">
+    <div class="it-heading-megacolumn-wrapper d-lg-none">
+        <div class="it-heading-megacolumn">
+        </div>
+    </div>
+    <div class="link-list-wrapper">
+        <ul class="link-list">
+            
+        </ul>
+    </div>
+</div>
+
+
+            </div>
+
+        </div>
+    </div>
+</li>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdown-Iscrizioni">
+        <span>Iscrizioni</span>
+        <svg class="icon icon-xs">
+        <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-expand"></use>
+        </svg>
+    </a>
+    <div class="dropdown-menu" role="region" aria-labelledby="dropdown-Iscrizioni">
+        <div class="link-list-wrapper">
+            <div class="mx-4 mb-2">
+                <a href="index.php?0=iscrizioni">
+                    <div class="text-white text-uppercase text-bold d-flex gap-2">
+                        <div>
+                            Iscrizioni
+                        </div>
+                        <div>
+                            <svg class="icon icon-sm icon-white right" aria-hidden="true">
+                            <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-arrow-right"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr class="text-white"/>
+                </a>
+            </div>
+
+            <ul class="link-list">
+                <li><a class="list-item" href="index.php?0=iscrizione-nidi-d-infanzia"><span>Iscrizione Nidi d&#039;infanzia</span></a></li>
+<li><a class="list-item" href="index.php?0=iscrizione-scuole-dell’infanz"><span>Iscrizione Scuole dell&rsquo;infanzia</span></a></li>
+<li><a class="list-item" href="index.php?0=iscrizione-ricreatori-comunali"><span>Iscrizione Ricreatori Comunali</span></a></li>
+<li><a class="list-item" href="index.php?0=iscrizione-sis"><span>Iscrizione SIS</span></a></li>
+<li><a class="list-item" href="index.php?0=iscrizione-centri-estivi"><span>Iscrizione Centri estivi</span></a></li>
+<li><a class="list-item" href="index.php?0=iscrizione-ricrestate"><span>Iscrizione Ricrestate </span></a></li>
+<li><a class="list-item" href="index.php?0=iscrizioni-servizio-mensa"><span>Iscrizioni Servizio Mensa</span></a></li>
+<li><a class="list-item" href="index.php?0=iscrizioni-pacchetto-scuola"><span>Iscrizioni Pacchetto Scuola</span></a></li>
+
+            </ul>
+        </div>
+    </div>
+</li><li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdown-Servizi">
+        <span>Servizi</span>
+        <svg class="icon icon-xs">
+        <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-expand"></use>
+        </svg>
+    </a>
+    <div class="dropdown-menu" role="region" aria-labelledby="dropdown-Servizi">
+        <div class="link-list-wrapper">
+            <div class="mx-4 mb-2">
+                <a href="index.php?0=servizi">
+                    <div class="text-white text-uppercase text-bold d-flex gap-2">
+                        <div>
+                            Servizi
+                        </div>
+                        <div>
+                            <svg class="icon icon-sm icon-white right" aria-hidden="true">
+                            <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-arrow-right"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr class="text-white"/>
+                </a>
+            </div>
+
+            <ul class="link-list">
+                <li><a class="list-item" href="index.php?0=mense"><span>Mense</span></a></li>
+<li><a class="list-item" href="index.php?0=tariffe"><span>Tariffe</span></a></li>
+<li><a class="list-item" href="index.php?0=contributi"><span>Contributi</span></a></li>
+<li><a class="list-item" href="index.php?0=supplenze"><span>Supplenze</span></a></li>
+
+            </ul>
+        </div>
+    </div>
+</li><li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdown-Progetti">
+        <span>Progetti</span>
+        <svg class="icon icon-xs">
+        <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-expand"></use>
+        </svg>
+    </a>
+    <div class="dropdown-menu" role="region" aria-labelledby="dropdown-Progetti">
+        <div class="link-list-wrapper">
+            <div class="mx-4 mb-2">
+                <a href="index.php?0=progetti">
+                    <div class="text-white text-uppercase text-bold d-flex gap-2">
+                        <div>
+                            Progetti
+                        </div>
+                        <div>
+                            <svg class="icon icon-sm icon-white right" aria-hidden="true">
+                            <use href="/contents/lib/bootstrap-italia/svg/sprite.svg#it-arrow-right"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr class="text-white"/>
+                </a>
+            </div>
+
+            <ul class="link-list">
+                <li><a class="list-item" href="index.php?0=giornata-dell-infanzia"><span>Giornata dell&#039;Infanzia</span></a></li>
+<li><a class="list-item" href="index.php?0=giornata-dei-ricreatori-comunali"><span>Giornata dei Ricreatori comunali</span></a></li>
+<li><a class="list-item" href="index.php?0=la-via-per-crescere-giocando"><span>La via per crescere giocando</span></a></li>
+<li><a class="list-item" href="index.php?0=senza-parole-parliamo-la-stessa-lingua"><span>Senza parole parliamo la stessa lingua</span></a></li>
+<li><a class="list-item" href="index.php?0=orto-in-condotta"><span>Orto in condotta</span></a></li>
+<li><a class="list-item" href="index.php?0=spazi-amo"><span>Spazi.Amo</span></a></li>
+<li><a class="list-item" href="index.php?0=consiglio-comunale-delle-ragazze-e-dei-ragazzi"><span>Consiglio Comunale delle Ragazze e dei Ragazzi</span></a></li>
+<li><a class="list-item" href="index.php?0=giornate-della-memoria-e-del-ricordo"><span>Giornate della Memoria e del Ricordo</span></a></li>
+<li><a class="list-item" href="index.php?0=trieste-next"><span>Trieste Next</span></a></li>
+<li><a class="list-item" href="index.php?0=trieste-citta-della-conoscenza"><span>Trieste Citt&agrave; della Conoscenza</span></a></li>
+<li><a class="list-item" href="index.php?0=archivio"><span>Archivio</span></a></li>
+
+            </ul>
+        </div>
+    </div>
+</li><li class="nav-item"><a class="nav-link" href="index.php?0=contatti" aria-current="page"><span>Contatti</span></a></li>
+<li class="nav-item"><a class="nav-link" href="index.php?0=faq" aria-current="page"><span>Domande Frequenti</span></a></li>
+
+</ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+CSS
